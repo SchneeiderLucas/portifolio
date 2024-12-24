@@ -20,7 +20,7 @@ Esse é o meu portfólio pessoal, onde falo um pouco sobre mim e apresento algun
 <br>
 
 <p align="center">
-  <img alt="home do meu projeto" src="./img/portfolio-image-home.png">
+  <img alt="home do meu projeto" src="">
 </p>
 
 ## 🚀 Tecnologias
