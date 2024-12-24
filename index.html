@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Lucas Schneider</title> 
+
+  <!--- link-css --->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+  <!--- link-fonts --->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+  <!-- SEO -->
+  <meta name="description" content="Meu Portfólio - Lucas Schneider"> 
+
+  <!-- SMO -->
+  <meta property="og:title" content="Portfólio - Lucas Schneider" >
+  <meta property="og:site_name" content="Portfólio de Lucas Schneider">
+  <meta property="og:description" content="Sou desenvolvedor web front-end. Aqui você vai encontrar alguns dos meus principais projetos. ">
+  <meta property="og:url" content="https://schneeiderlucas.github.io/portif-lio-/">
+  <meta property="og:image" content="./img/home-mobile-light-mode.jpg">
+  <meta property="og:image/type">
+
+
+</head>
+<body>
+  <!-- header design -->
+  <nav>
+      <ul class="navlist">
+        <li class="active" name="nav-li"><a href="#home" class="active" name="nav-a">Início</a></li>
+        <li name="nav-li"><a href="#about" name="nav-a">Sobre</a></li>
+        <li name="nav-li"><a href="#skills" name="nav-a">Habilidades</a></li>
+        <li name="nav-li"><a href="#projects" name="nav-a">Projetos</a></li>
+        <li name="nav-li"><a href="#contact" name="nav-a">Contato</a></li>
+      </ul>
+
+      
+      <div>
+        <ul class="social-network">
+          <li>
+            <div id="switch" onclick="toggleMode()">
+              <button></button>
+              <span></span>
+            </div>
+          </li>
+          <li><a href="https://www.linkedin.com/in/lucasschneideralmeida/" target="_blank">
+            <figure id="fig1"></figure>
+          </a></li>
+          <li><a href="https://github.com/SchneeiderLucas" target="_blank">
+            <figure id="fig2"></figure>
+          </a></li>
+        </ul>
+      </div>
+      
+      <div class="bx bx-menu" id="menu-icon"></div>
+      
+    </nav>
+    
+    <main>
+      <!-- home section -->
+      <section id="home" class="home">
+        <div class="home-presentation">
+          <p class="my-name">meu nome é</p>
+          <h1 id="name">LUCAS</h1>
+          <h1 id="last-name">SCHNEIDER</h1>
+          <h3><p>sou</p> Desenvolvedor Web <span><strong>|</strong> Front-end</span></h3>
+          <div class="button">
+            <a href="#projects" class="project-button">Projetos</a>
+            <a href="#contact" class="contact-button">Contato</a>
+          </div>
+        </div>
+        <img class="home-mac" src="./img/mac.png" alt="laptop">
+      </section>
+  
+      <!-- about section -->
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="./img/foto-sobre-2.png" alt="">
+        </div>
+        
+        <div class="about-text">
+          <h2><span>SOBRE</span> MIM</h2>
+          <p>
+            Tenho 24 anos. Estou em busca de uma oportunidade na area de TI como desenvolvedor web. 
+            Logo que comecei a estudar a respeito fiquei impressionado com o que é possível fazer com 
+            programação. A possibilidade de resolver problemas, facilitar o trabalho das pessoas, 
+            transformar idéias em algo real e, mais do que isso, transformar vidas. Isso é incrível! 
+            Mas o que me impressionou de verdade na área foi que a programação pode nos "dar mais TEMPO"!
+          </p>
+          <p>
+            O tempo é o ativo mais importante que existe, porque ele é o mais escasso. Todo mundo gostaria
+             de ter mais. Mas, às vezes, perdemos muito do nosso tempo com tarefas repetitivas ou que 
+             demorariam muito para serem executadas. Mas a programação pode dar esse tempo de PRESENTE pra
+              nós! Eu quero poder resolver problemas, transformar vidas, transformar idéias, facilitar o 
+              trabalho de alguém e "dar mais TEMPO" para as pessoas através da programação.
+          </p>
+            <button class="button-cv">
+              <a href="./assets/curriculo-front-end.pdf" download="CV - Lucas Schneider" class="btn-cv"> Download CV</a>
+            </button>
+            
+          </div>
+          <img src="./img/balls.svg" alt="balls" class="balls">
+      </section>
+      
+      <!-- skills section -->
+      <section class="skills" id="skills">
+  
+        <div class="line"></div>
+        <div class="tech">
+          <h2>TECNOLOGIAS</h2>
+          <div class="techs">
+            <div class="card">
+              <img src="./img/html-icon.svg" alt="icone html">
+              <p>HTML</p>
+            </div>
+            <div class="card">
+              <img src="./img/css-icon.svg" alt="icone css">
+              <p>CSS</p>
+            </div>
+            <div class="card">
+              <img src="./img/js-icon.svg" alt="icone javascript">
+              <p>JavaScript</p>
+            </div>
+            <div class="card">
+              <img src="./img/react-js-icon.svg" alt="icone react.js">
+              <p>React.js</p>
+            </div>
+            <div class="card">
+              <img src="./img/node-js-icon.svg" alt="icone node.js">
+              <p>Node.js</p>
+            </div>
+            <div class="card">
+              <img src="./img/python-icon.svg" alt="icone python">
+              <p>Python</p>
+            </div>
+            <div class="card">
+              <img src="./img/sql-icon.svg" alt="icone sql">
+              <p>SQL</p>
+            </div>
+            <div class="card">
+              <img src="./img/git-icon.svg" alt="icone git">
+              <p>Git</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="line"></div>
+        <div class="tool">
+          <h2>FERRAMENTAS</h2>
+          <div class="tools">
+            <div class="card">
+              <img src="./img/github-icon.svg" alt="icone github">
+              <p>GitHub</p>
+            </div>
+            <div class="card">
+              <img src="./img/vs-code-icon.svg" alt="icone vscode">
+              <p>VSCode</p>
+            </div>
+            <div class="card">
+              <img src="./img/figma-icon.svg" alt="icone figma">
+              <p>Figma</p>
+            </div>
+            <div class="card">
+              <img src="./img/notion-icon.svg" alt="icone notion">
+              <p>Notion</p>
+            </div>
+          </div>
+          
+        </div>
+        
+      </section>
+      
+      <!-- projects section -->
+      <section id="projects" class="projects">
+        <div class="line"></div>
+        <div class="main-text">
+          <h2>Meus <span>Projetos</span></h2>
+        </div>
+  
+        <div class="portfolio-content">
+          
+          <div class="row">
+            <img src="./img/login-land-rover.png" alt="print pagina de login">
+            <div class="layer">
+              <h5>Tela de login</h5>
+              <p>Esse repositório e uma atualização/melhoria do repositório anterior "formulario-login". Nele utilizo apenas HTML e CSS.</p>
+              <div class="site-github">
+                <a href="https://fernandoalvesrufino.github.io/nova-tela-login/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fernandoalvesrufino/nova-tela-login" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <img src="./img/cronometro.png" alt="print cronometro">
+            <div class="layer">
+              <h5>Relógio Digital</h5>
+              <p>Desenvolvido um relógio digital utilizado HTML, CSS e JS.</p>
+              <div class="site-github">
+                <a href="https://fernandoalvesrufino.github.io/relogio-digital-js/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fernandoalvesrufino/relogio-digital-js" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <img src="./img/form.png" alt="pagina de form">
+            <div class="layer">
+              <h5>Formulário de avaliação</h5>
+              <p>Desenvolvido formulário de avaliação da mentoria.</p>
+              <div class="site-github">
+                <a href="https://fernandoalvesrufino.github.io/form-avaliacao-da-mentoria/" target="_blank"><i class='bx bx-link-external'></i></a>
+                <a href="https://github.com/fernandoalvesrufino/form-avaliacao-da-mentoria" target="_blank"><i class='bx bxl-github'></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <img src="./img/calendario-copa.png" alt="calendario da copa">
+            <div class="layer">
+              <h5>Calendário da Copa</h5>
+              <p>Projeto desenvolvido na semana da NLW 10 Copa promovido pela Rocketseat.</p>
+              <div class="site-github">
+                <a href="https://fernandoalvesrufino.github.io/nlw-10-copa-calendario/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fernandoalvesrufino/nlw-10-copa-calendario" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <img src="./img/mario-jump.png" alt="jogo do mario">
+            <div class="layer">
+              <h5>Mario Jump</h5>
+              <p>Jogo simples do Mario onde é possível pular obstáculos. O jogo termina quando você colide com algum obstáculo.</p>
+              <div class="site-github">
+                <a href="https://fernandoalvesrufino.github.io/mario-jump-game/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fernandoalvesrufino/mario-jump-game" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <img src="./img/habit-tracker.png" alt="rastreador de habitos">
+            <div class="layer">
+              <h5>Habit Tracker</h5>
+              <p>O Habits é um app para ajudar a rastrear os hábitos.</p>
+              <div class="site-github">
+                <a href="https://fernandoalvesrufino.github.io/nlw-11-habit-tracker/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fernandoalvesrufino/nlw-11-habit-tracker" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+                    
+          <div class="row">
+            <img src="./img/dev-links.png" alt="agregador de links">
+            <div class="layer">
+              <h5>DevLinks</h5>
+              <p>O DevLinks é um agregador de links para usar como cartão de visitas online.</p>
+              <div class="site-github">
+                <a href="https://fernandoalvesrufino.github.io/devlinks/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fernandoalvesrufino/devlinks" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+                    
+          <div class="row">
+            <img src="./img/page-security.png" alt="page security">
+            <div class="layer">
+              <h5>Home segurança de TI</h5>
+              <p>Projeto desenvolvido na Trilha Explorer da Rocketseat. Nesse desafio, foi recriado uma aplicação, a partir de um layout fornecido.</p>
+              <div class="site-github">
+                <a href="https://fernandoalvesrufino.github.io/homepage-seguranca-ti/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fernandoalvesrufino/homepage-seguranca-ti" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+                    
+          <div class="row">
+            <img src="./img/cream-page.png" alt="page ice cream">
+            <div class="layer">
+              <h5>Space Cream</h5>
+              <p>Construido o site Space Cream, uma página de sorvetes utilizando conceitos de responsividade e display Grid.</p>
+              <div class="site-github">
+                <a href="https://fernandoalvesrufino.github.io/space-cream-page/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fernandoalvesrufino/space-cream-page" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+                    
+        </div>
+  
+      </section>
+  
+    <!----contact section --->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <div class="main-text">
+          <h2>Entre em <span>contato</span></h2>
+        </div>
+        
+      </div>
+  
+      <div class="contact-form">
+        <form action="https://formsubmit.co/devfernandorufino@gmail.com" method="POST">
+          <input type="text" name="name" placeholder="Digite seu nome" required>
+          <input type="email" name="email" placeholder="Digite seu melhor e-mail" required>
+          <input type="hidden" name="_captcha" value="false">
+          <textarea type="text" name="text" cols="35" rows="10" placeholder="Como eu posso te ajudar?" required></textarea>
+          <input type="hidden" name="_next" value="https://silver-shortbread-4377d9.netlify.app/#contact">
+          <br>
+          <input type="submit" value="Enviar" class="submit" required>
+        </form>
+      </div>
+  
+      <div class="contact-icons">
+        <a href="https://github.com/SchneeiderLucas" target="_blank"><i class='bx bxl-github' ></i></a>
+        <a href="https://www.linkedin.com/in/lucasschneideralmeida/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://www.instagram.com/lucasschneeider/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="lucasschnpessoal@gmail.com" target="_blank"><i class='bx bxl-gmail' ></i></a>
+      </div>
+  
+    </section>
+  </main>
+
+	<!----end section --->
+	<section class="end">
+		<div class="last-text">
+			<p>by Lucas Schneider <img src="./img/bussola.svg" alt=""> All Rights Reserved.</p>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+		</div>
+	</section>
+
+
+  <!--- link-script --->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
