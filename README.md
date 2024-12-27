@@ -41,7 +41,7 @@ Desenvolvido meu primeiro portfólio, onde exercitei e treinei alguns conceitos 
 - [x] implementado seleção de dark e light mode para visualização da página.
 <br>
 
-- Acesse o projeto finalizado, [clicando aqui](https://fernandoalvesrufino.github.io/meu-portfolio/).
+- Acesse o projeto finalizado, [clicando aqui](https://https://github.com/SchneeiderLucas/portifolio).
 
 ## 🔖 Layout
 
